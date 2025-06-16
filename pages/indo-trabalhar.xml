@@ -9,7 +9,7 @@
   />
   <agent
     id="texto_de_proxima_pagina"
-    text="Começar"
+    text="Interagir com o senhor"
     font-size="25"
     color="#55F"
     animation="hover-glow"
