@@ -9,14 +9,6 @@
     font-size="24"
   />
   <agent
-    id="anciao"
-    x="550"
-    y="400"
-    width="150"
-    image="anciao_fab.png"
-    animation="fade-in-up"
-  />
-  <agent
     id="decisao"
     text="Decidir"
     font-size="25"
@@ -25,5 +17,13 @@
     y="480"
     x="center"
     on_click="goToPage('tomar-decisao')"
+  />
+  <agent
+    id="anciao"
+    x="550"
+    y="400"
+    width="150"
+    image="anciao_fab.png"
+    animation="fade-in-up"
   />
 </page>
