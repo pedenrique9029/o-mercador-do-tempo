@@ -17,6 +17,6 @@
     animation="hover-glow"
     y="480"
     x="center"
-    on_click="goToPage('acordando')"
+    on_click="goToPage('conversa-anciao')"
   />
 </page>
