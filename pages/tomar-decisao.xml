@@ -2,7 +2,7 @@
   <agent
     id="titulo"
     x="center"
-    y="center"
+    y="150"
     text="Faça sua escolha"
     color="white"
     font-size="30"
@@ -11,10 +11,10 @@
     id="liberdade"
     text="Abdicar"
     font-size="25"
-    color="#55F"
+    color="#F00"
     animation="hover-glow"
-    y="480"
-    x="center"
+    y="center"
+    x="200"
     on_click="goToPage('liberdade')"
   />
   <agent
@@ -23,8 +23,8 @@
     font-size="25"
     color="#55F"
     animation="hover-glow"
-    y="480"
-    x="center"
+    y="center"
+    x="450"
     on_click="goToPage('status-quo')"
   />
 </page>
