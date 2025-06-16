@@ -1,13 +1,14 @@
 <fable>
-  <config font-family='' />
+  <config font-family="" />
 
-  <start/>
-  <acordando/>
-  <middle/>
-  <indo-trabalhar/>
-  <conversa-anciao/>
-  <liberdade/>
-  <status-quo/>
-  <ending/>
-  
+  <start />
+  <acordando />
+  <middle />
+  <indo-trabalhar />
+  <conversa-anciao />
+  <ouvir-anciao />
+  <tomar-decisao />
+  <liberdade />
+  <status-quo />
+  <ending />
 </fable>
