@@ -1,4 +1,4 @@
-<page id="acordando" bg_color="black">
+<page id="acordando" bg_image="bg_timerunning.png">
   <agent
     id="titulo"
     x="center"
