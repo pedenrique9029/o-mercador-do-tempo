@@ -1,0 +1,3 @@
+<page id="tomar-decisao" bg_color="black">
+  <agent id="titulo" x="center" y="center" text="Página tomar-decisao" color="white" font-size="24" />
+</page>
