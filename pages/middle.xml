@@ -1,5 +1,14 @@
 <page id="middle" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Levantar da cama é uma decisão dolorosa, e ao mesmo tempo a única opção que possui. Sendo assim, nem mesmo se trata de uma escolha. O quão livre você é?" animation="typewriter" color="white" width='500' font-size="24"/>
+  <agent
+    id="titulo"
+    x="center"
+    y="center"
+    text="Levantar da cama é uma decisão dolorosa, e ao mesmo tempo a única opção que possui. Sendo assim, nem mesmo se trata de uma escolha. O quão livre você é?"
+    animation="typewriter"
+    color="white"
+    width="500"
+    font-size="24"
+  />
   <agent
     id="texto_de_proxima_pagina"
     text="Ir ao trabalho"
