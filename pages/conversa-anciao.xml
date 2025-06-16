@@ -3,11 +3,18 @@
     id="titulo"
     x="center"
     y="center"
-    text="O anciao diz sobre a efemeridade da sociedade pós-moderna e oferece uma proposta a você: seu tempo livre em troca de tudo que você possui ou prosseguir na mesma vida de sempre"
+    text="Como se não houvesse escolha, você inconscientemente se aproxima do senhor para ouvir o que ele tem a dizer. O anciao diz sobre a efemeridade da sociedade pós-moderna e oferece uma proposta a você: seu tempo livre em troca de tudo que você possui ou prosseguir na mesma vida de sempre"
     color="white"
     font-size="24"
     animation="typewriter"
   />
+  <agent
+    id="anciao"
+    x="500"
+    y="400"
+    width="150"
+    image="anciao_fab.png"
+    />
   <agent
     id="liberdade"
     text="Abdicar"
