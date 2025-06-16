@@ -1,19 +1,13 @@
-<page id="ending" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="ending" bg_color="black">
   <agent
     id="teste"
-    text="Hello World Ending"
-    color="white"
+    text="Você chegou ao fim! No final de tudo, você percebe que só é livre unicamente para escolher buscar ou não pela sua liberdade"
+    color="#F55"
     x="center"
     y="center"
-    font-size="70"
+    font-size="30"
+    width="500"
+    animation="fade-in"
   />
 
-  <agent
-    id="next_page_text"
-    text="Primeira Pagina"
-    animation="glitch"
-    y="480"
-    x="640"
-    on_click="goToPage('start')"
-  />
 </page>
