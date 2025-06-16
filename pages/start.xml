@@ -1,70 +1,28 @@
-<page id="start" bg_image="background.png" >
-
-<fab-if when="$narrative_start=0">
+<page id="start" bg_image="bg_fab.png" bg_music="Dead_Angle.mp3" >
   <agent
-    id="start_message_1"
-    text="$visitante… você tinha razão. Eu menti para você. Não deveria, mas -"
-    color="white"
-    x="150"
-    y="460"
-    width = "700"
-    animation="typewriter"
-      />
-
- <agent
-    id="start_button_1"
-    text="continuar?"
-    x="350"
-    y="510"
-    color="white"
-    on_click="set(narrative_start, $narrative_start + 1)"        
-    animation="hover-grow"
-  />
-  </fab-if>
-
-
-<fab-if when="$narrative_start=1">
-  <agent
-    id="start_message_2"
-    text="Tudo o que eu posso dizer é, se você receber isso…"
-    color="white"
-    x="200"
-    y="460"
-    width = "700"
-    animation="typewriter"
-  />
-  
-  <agent
-    id="start_button_2"
-    text="continuar?"
-    x="350"
-    y="510"
-    color="white"
-    on_click="set(narrative_start, $narrative_start + 1)"
-    animation="hover-grow"
-  /> 
-  </fab-if>
-
-  <fab-if when="$narrative_start=2">
-      <agent
-    id="start_message_3"
-    text="Fique longe."
-    color="white"
+    id="titulo_1"
+    text="Não tenho boca"
+    color="red"
     x="center"
-    y="420"
-    font-size="40"
-    animation="fade-in"
+    y="220"
+    font-size="35"
   />
-    
-  <agent
-    id="start_button_3"
-    text="continuar?"
-    x="350"
-    y="510"
-    color="white"
-    on_click="goToPage('choice1')"
-    animation="hover-grow"
+   <agent
+    id="titulo_2"
+    text="mas preciso gritar"
+    color="red"
+    x="center"
+    y="300"
+    font-size="35"
   />
-  </fab-if>
 
+  <agent
+    id="texto_de_proxima_pagina"
+    text="Começar"
+    color="darkred"
+    animation="hover-glow"
+    y="480"
+    x="center"
+    on_click="goToPage('middle')"
+  />
 </page>
