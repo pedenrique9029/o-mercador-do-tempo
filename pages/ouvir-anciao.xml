@@ -4,8 +4,26 @@
     x="center"
     y="center"
     text="O anciao diz sobre a efemeridade da sociedade pós-moderna e oferece uma proposta a você: seu tempo livre em troca de tudo que você possui ou prosseguir na mesma vida de sempre"
+    animation="fade-in"
     color="white"
     font-size="24"
   />
-  <agent id="anciao" x="500" y="400" width="150" image="anciao_fab.png" />
+  <agent
+    id="anciao"
+    x="500"
+    y="400"
+    width="150"
+    image="anciao_fab.png"
+    animation="fade-in-up"
+  />
+  <agent
+    id="decisao"
+    text="Decidir"
+    font-size="25"
+    color="#AAA"
+    animation="hover-glow"
+    y="480"
+    x="center"
+    on_click="goToPage('tomar-decisao')"
+  />
 </page>
