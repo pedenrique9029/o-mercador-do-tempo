@@ -1,19 +1,13 @@
-<page id="middle" bg_image="tech-bg-lab.png" bg_music="osts-vilo.mp3">
+<page id="middle" bg_color="black">
+  <agent id="titulo" x="center" y="center" text="Levantar da cama é uma decisão dolorosa, e ao mesmo tempo a única opção que possui. Sendo assim, nem mesmo se trata de uma escolha. O quão livre você é?" color="white" width='600' font-size="24" />
   <agent
-    id="teste"
-    text="Hello World Middle"
-    color="white"
-    x="center"
-    y="center"
-    font-size="70"
-  />
-
-  <agent
-    id="next_page_text"
-    text="Proxima Pagina"
-    animation="glitch"
+    id="texto_de_proxima_pagina"
+    text="Ir ao trabalho"
+    font-size="25"
+    color="#55F"
+    animation="hover-glow"
     y="480"
-    x="640"
-    on_click="goToPage('ending')"
+    x="center"
+    on_click="goToPage('middle')"
   />
 </page>
