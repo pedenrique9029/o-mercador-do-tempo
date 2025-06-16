@@ -7,4 +7,14 @@
     color="white"
     font-size="24"
   />
+  <agent
+    id="proxima-pagina"
+    text="Prosseguir"
+    font-size="25"
+    color="#55F"
+    animation="hover-glow"
+    y="480"
+    x="center"
+    on_click="goToPage('ending')"
+  />
 </page>
