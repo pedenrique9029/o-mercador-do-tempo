@@ -1,3 +1,13 @@
 <page id="acordando" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página acordando" color="white" font-size="24" />
+  <agent id="titulo" x="center" y="center" text="Você acorda numa sociedade distópica com uma quantidade de tempo de vida limitada, para que consiga postergar o fim de sua vida deve-se consegui dinheiro para comprar mais, não importa por qual meio..." color="white" width='600' font-size="24" />
+  <agent
+    id="texto_de_proxima_pagina"
+    text="Prosseguir"
+    font-size="25"
+    color="#55F"
+    animation="hover-glow"
+    y="480"
+    x="center"
+    on_click="goToPage('acordando')"
+  />
 </page>
