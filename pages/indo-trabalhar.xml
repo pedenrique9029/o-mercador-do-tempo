@@ -4,6 +4,7 @@
     x="center"
     y="center"
     text="No caminho para o trabalho, você se depara com um ancião um tanto quanto excêntrico segurando um relógio de bolso com a mão esquerda enquanto gesticula com a direita para que você se aproxime."
+    animation="typewriter"
     width="500"
     color="white"
     font-size="24"
