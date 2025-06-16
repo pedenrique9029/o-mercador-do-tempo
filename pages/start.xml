@@ -5,8 +5,9 @@
     color="#FFF"
     x="center"
     y="center"
-    width="600"
+    width="500"
     font-size="25"
+    animation="typewriter"
   />
   <agent
     id="texto_de_proxima_pagina"
