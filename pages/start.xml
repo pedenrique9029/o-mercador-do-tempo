@@ -1,28 +1,21 @@
-<page id="start" bg_image="bg_fab.png" bg_music="Dead_Angle.mp3" >
+<page id="start" bg_image="bg_fab.png">
   <agent
     id="titulo_1"
-    text="Não tenho boca"
-    color="red"
+    text="Numa sociedade degenerada onde tempo é dinheiro, o quanto você vale?"
+    color="#FFF"
     x="center"
-    y="220"
-    font-size="35"
+    y="center"
+    width="600"
+    font-size="25"
   />
-   <agent
-    id="titulo_2"
-    text="mas preciso gritar"
-    color="red"
-    x="center"
-    y="300"
-    font-size="35"
-  />
-
   <agent
     id="texto_de_proxima_pagina"
     text="Começar"
-    color="darkred"
+    font-size="25"
+    color="#55F"
     animation="hover-glow"
     y="480"
     x="center"
-    on_click="goToPage('middle')"
+    on_click="goToPage('acordando')"
   />
 </page>
