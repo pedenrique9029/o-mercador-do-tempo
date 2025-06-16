@@ -1,7 +1,7 @@
 <fable>
   <config font-family="Bungee" />
   <page id="inicio">
-    <agent id="balao" x="250" y="250" animation="fade-out" text="Numa sociedade degenerada onde tempo é dinheiro, o quanto você vale?" 
+    <agent id="balao" x="250" y="250" text="Numa sociedade degenerada onde tempo é dinheiro, o quanto você vale?" animation="fade-pulse" 
            color="#000000" font-size="16" bg_color="#ffffff" border="1px solid #000000" 
            radius="10" width="500" height="100" />
   </page>
