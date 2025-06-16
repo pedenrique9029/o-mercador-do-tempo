@@ -1,3 +1,3 @@
 <page id="status-quo" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página status-quo" color="white" font-size="24" />
+  <agent id="titulo" x="center" y="center" text="Você prefere permanecer no ponto de inação" color="white" font-size="24" />
 </page>
