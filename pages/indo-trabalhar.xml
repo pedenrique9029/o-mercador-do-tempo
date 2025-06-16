@@ -1,3 +1,20 @@
 <page id="indo-trabalhar" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página indo-trabalhar" color="white" font-size="24" />
+  <agent
+    id="titulo"
+    x="center"
+    y="center"
+    text="No caminho para o trabalho, voc~e se depara com um ancião um tanto quanto excêntrico segurando um relógio de bolso com a mão esquerda enquanto gesticula com a direita para que você se aproxime."
+    color="white"
+    font-size="24"
+  />
+  <agent
+    id="texto_de_proxima_pagina"
+    text="Começar"
+    font-size="25"
+    color="#55F"
+    animation="hover-glow"
+    y="480"
+    x="center"
+    on_click="goToPage('acordando')"
+  />
 </page>
