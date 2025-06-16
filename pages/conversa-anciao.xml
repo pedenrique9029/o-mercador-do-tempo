@@ -7,4 +7,24 @@
     color="white"
     font-size="24"
   />
+  <agent
+    id="liberdade"
+    text="Abdicar"
+    font-size="25"
+    color="#55F"
+    animation="hover-glow"
+    y="480"
+    x="center"
+    on_click="goToPage('liberdade')"
+  />
+  <agent
+    id="texto_de_proxima_pagina"
+    text="Permanecer"
+    font-size="25"
+    color="#55F"
+    animation="hover-glow"
+    y="480"
+    x="center"
+    on_click="goToPage('status-quo')"
+  />
 </page>
