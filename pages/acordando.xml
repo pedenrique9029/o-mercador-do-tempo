@@ -1,5 +1,13 @@
 <page id="acordando" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Você acorda numa sociedade distópica com uma quantidade de tempo de vida limitada, para que consiga postergar o fim de sua vida deve-se conseguir dinheiro para comprar mais, não importa por qual meio..." color="white" width='600' font-size="24" />
+  <agent
+    id="titulo"
+    x="center"
+    y="center"
+    text="Você acorda numa sociedade distópica com uma quantidade de tempo de vida limitada, para que consiga postergar o fim de sua vida deve-se conseguir dinheiro para comprar mais, não importa por qual meio..."
+    color="white"
+    width="500"
+    font-size="24"
+  />
   <agent
     id="texto_de_proxima_pagina"
     text="Levantar da Cama"
