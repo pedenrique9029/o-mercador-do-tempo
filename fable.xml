@@ -1,33 +1,9 @@
-<page id="middle" bg_image="fundo_preto.png" bg_music="Hour_Of_Darkness.mp3" >
-  <agent
-    id="texto1"
-    text="Você acorda sentindo muita dor em todo seu corpo, principalmente em seu abdômen, que se encontra envolto em panos ensanguentados. Sua mente corre alucinada enquanto tenta entender o que aconteceu e onde você está."
-    color="darkred"
-    x="center"
-    y="15"
-    font-size="20"
-  />
-   <agent
-    id="texto2"
-    text="Você se lembra da sua ida ao parque no final da tarde, apenas tentando se acalmar depois de um longo dia de trabalho, logo depois, essa mesma pessoa estava correndo, desesperada e ferida, de um homicida que a perseguia pela floresta, a sua machete reluzindo pela luz da lua com o sangue da sua presa."
-    color="darkred"
-    x="center"
-    y="220"
-    font-size="20"
-  />
+<fable>
+  <config font-family='' />
 
-  <agent
-    id="texto_de_proxima_pagina2"
-    text="Proximo"
-    color="darkred"
-    animation="hover-glow"
-    y="480"
-    x="center"
-    on_click="goToPage('acordando')"
-  />
-  <config font-family="Bungee" />
-  <page id="inicio">
-    <agent id="balao" x="center" y="center" text="Numa sociedade degenerada onde tempo é dinheiro, o quanto você vale?" animation="fade-pulse"
-           color="#000000" font-size="22" bg_color="#ffffff" border="1px solid #000000" 
-           radius="10" width="800" height="100" />
-</page>,
+  <acordando/>
+  <start/>
+  <middle/>
+  <ending/>
+  
+</fable>
