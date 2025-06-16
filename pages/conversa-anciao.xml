@@ -6,6 +6,7 @@
     text="O anciao diz sobre a efemeridade da sociedade pós-moderna e oferece uma proposta a você: seu tempo livre em troca de tudo que você possui ou prosseguir na mesma vida de sempre"
     color="white"
     font-size="24"
+    animation="typewriter"
   />
   <agent
     id="liberdade"
