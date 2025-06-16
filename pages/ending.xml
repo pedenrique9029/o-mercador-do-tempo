@@ -1,7 +1,7 @@
 <page id="ending" bg_color="black">
   <agent
     id="teste"
-    text="Você chegou ao fim! No final de tudo, você percebe que só é livre unicamente para escolher buscar ou não pela sua liberdade"
+    text="Você chegou ao fim! No final de tudo, você percebe que só é livre unicamente para escolher buscar ou não pela sua liberdade."
     color="#F55"
     x="center"
     y="center"
@@ -9,5 +9,4 @@
     width="500"
     animation="fade-in"
   />
-
 </page>
